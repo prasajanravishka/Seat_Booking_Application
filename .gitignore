@@ -1,0 +1,5 @@
+.vscode/
+DB/*.sql
+/vendor/
+node_modules/
+*.log
