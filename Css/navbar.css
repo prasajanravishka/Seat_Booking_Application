@@ -1,0 +1,83 @@
+/* ========== NAVBAR ========== */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0b1120;
+    color: white;
+    padding: 16px 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(56, 189, 248, 0.15);
+    backdrop-filter: blur(10px);
+    font-family: 'Sora', sans-serif;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #38bdf8;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 14px;
+    border-radius: 6px;
+    transition: color 0.2s, background 0.2s;
+    letter-spacing: 0.2px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+    background: rgba(56, 189, 248, 0.08);
+}
+
+nav a.btn {
+    background: rgba(56, 189, 248, 0.12);
+    color: #38bdf8;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    margin-left: 4px;
+    font-weight: 600;
+}
+
+nav a.btn:hover {
+    background: #38bdf8;
+    color: #0b1120;
+    border-color: #38bdf8;
+}
+
+nav a.btn.logout {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+nav a.btn.logout:hover {
+    background: #ef4444;
+    color: white;
+    border-color: #ef4444;
+}

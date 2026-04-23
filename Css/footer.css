@@ -1,0 +1,79 @@
+/* ========== FOOTER ========== */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&display=swap');
+
+footer {
+    background: #0b1120;
+    color: #94a3b8;
+    font-family: 'Sora', sans-serif;
+    padding: 48px 60px 24px;
+    border-top: 1px solid rgba(56, 189, 248, 0.1);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-brand .logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.footer-brand .logo span {
+    color: #38bdf8;
+}
+
+.footer-brand p {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: #64748b;
+    max-width: 280px;
+}
+
+.footer-col h4 {
+    color: #e2e8f0;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.footer-col a {
+    display: block;
+    color: #64748b;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition: color 0.2s;
+}
+
+.footer-col a:hover {
+    color: #38bdf8;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #475569;
+}
+
+.footer-bottom a {
+    color: #475569;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-bottom a:hover {
+    color: #38bdf8;
+}
